@@ -1,0 +1,87 @@
+/* Estilos del menu */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    font-family: sans-serif;
+    padding: 90px 20px 0px;
+    
+}
+
+.header { /* Con esto hacemos referencia a la clase header*/
+    background-color: #CC9933;
+    height: 80px;
+    position: fixed; /*Con este position fixed al hacer scroll el menu se mantiene arriba, caso contrario se quita*/
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px; /*Con esto centramos el logo en el header*/
+}
+
+.logo:hover {
+    background-color: #024070;
+    transition: 0.5s;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    transition: 0.5s;
+}
+
+.contenido {
+    position: absolute;
+    top: 12%;
+    height: 95%;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.piePagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
