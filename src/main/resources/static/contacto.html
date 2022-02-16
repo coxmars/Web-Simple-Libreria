@@ -8,6 +8,7 @@
         <meta name ="description" content="Libros | Regalos | Novedades">
         <meta name ="keywords" content="libros,lectura,estudio,conocimiento">
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contacto.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header class="header"> <!-- Etiqueta para darle al browser info de que es un encabezado-->
@@ -25,61 +26,27 @@
         <main>
             <section class="group--color">
                 <div class="conteiner">
-                    <h2>Bienvenido a Librería Nacional</h2>
-                    <p>Librería Nacional es donde nace la tradición y el legado literario que provee conocimiento vertiginoso a los costarricenses, enfocada en promover el hábito de la lectura como pilar esencial para el desarrollo de la educación en Costa Rica.</p>
+                    <h2>Contáctenos</h2>
+                    <p>Si desea cotizar y encargar sus respectivos productos a su propio gusto le ofrecemos varios mecanismos, por ejemplo, los siguientes números telefónicos o por el correo adjuntado en la parte inferior.</p>
                 </div>
             </section>
 
             <section>
                 <div class="features">
-                    <h2 class="our-features">Nuestras características</h2>
-                    <div class="service">
-                        <div class="features">
-                            <img src="images/knowledge.png" alt="Conocimiento">
-                            <h3>El conocimiento es poder</h3>
-                            <p>Los libros son un instrumento esencial para mejorar la lectura de las personas y el desarrollo de la educación.</p>
-                        </div>
-                        <div class="features">
-                            <img src="images/light.png" alt="Innovacion">
-                            <h3>Siempre innovando</h3>
-                            <p>Nos mantenemos cada vez innovando nuestros productos para brindar la mejor calidad a nuestros clientes.</p>
-                        </div>
-                        <div class="features">
-                            <img src="images/customer.png" alt="Nuestros clientes">
-                            <h3>Todo al gusto del cliente</h3>
-                            <p> Nos enfocamos en complacer las necesidades de nuestros clientes con la variedad de nuestros libros.</p>
-                        </div>
-                    </div>
+                    <form action="" class="form">
+                        <input class="input"  type="text" placeholder="Nombre">
+                        <input class="input"  type="email" placeholder="Email">
+                        <textarea  class="input" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <input id="boton" class="input"  type="submit" value="Enviar">
+                    </form>
                 </div>
             </section>
             
-            <section>
-                <div class="reviews">
-                    <h2 class="our-reviews">Reseñas destacadas</h2>
-                    <div class="block">
-                        <div class="reviews">
-                            <img src="images/inversor.jpg" alt="El inversor inteligente">
-                            <h3>El inversor inteligente</h3>
-                            <p>Es un clásico de la literatura financiera y muchas personas lo consideran la Biblia de las inversiones en bolsa. De hecho, hasta el gran Warren Buffett estima 
-                        que es el mejor libro sobre inversiones jamás escrito. Sin duda alguna es un libro de lectura obligada para cualquier persona.</p>
-                            <a href="review01.html">Ver reseña completa...<i></i></a>
-                        </div>
-                        <div class="reviews">
-                            <img src="images/java.png" alt="Estructura datos con Java">
-                            <h3>El inversor inteligente</h3>
-                            <p>Es un clásico de la literatura financiera y muchas personas lo consideran la Biblia de las inversiones en bolsa. De hecho, hasta el gran Warren Buffett estima 
-                        que es el mejor libro sobre inversiones jamás escrito. Sin duda alguna es un libro de lectura obligada para cualquier persona.</p>
-                            <a href="review02.html">Ver reseña completa...<i></i></a>
-                        </div>
-                        <div class="reviews">
-                            <img src="images/block.png" alt="Blockchain libro">
-                            <h3>El inversor inteligente</h3>
-                            <p> Es un clásico de la literatura financiera y muchas personas lo consideran la Biblia de las inversiones en bolsa. De hecho, hasta el gran Warren Buffett estima 
-                        que es el mejor libro sobre inversiones jamás escrito. Sin duda alguna es un libro de lectura obligada para cualquier persona.</p>
-                            <a href="review03.html">Ver reseña completa...<i></i></a>
-                        </div>
-                    </div>
-                </div>
+            <section class="contenido">
+                <article>
+                    <header><h3>Localización Librería Nacional</h3></header><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299146.77260855417!2d-84.08835004764768!3d9.892968904262995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e363199abb51%3A0x1eda1f03384624bc!2sBiblioteca%20Nacional%20Miguel%20Obreg%C3%B3n%20Lizano!5e0!3m2!1ses-419!2scr!4v1644994169571!5m2!1ses-419!2scr" width="700" height="400"></iframe><br>
+                </article>
             </section>
         </main>
         <footer>
@@ -98,7 +65,7 @@
                     <h4>Suscríbase a nuestro boletín</h4>
                     <form action="#">
                         <input type="email" name="email" placeholder="Correo electrónico" id="email"/><br><br>
-                        <input type="submit" name="submit" id="submitForm"/><br><br>
+                        <input type="submit" name="enviar" id="submitForm"/><br><br>
                     </form>
                 </div>
             </div>
