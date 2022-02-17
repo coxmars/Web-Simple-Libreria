@@ -8,7 +8,6 @@
 #body {
     font-family: sans-serif;
     padding: 90px 20px 0px;
-    
 }
 
 .header { /* Con esto hacemos referencia a la clase header*/
@@ -231,6 +230,7 @@ footer{
     left:895px;
     border-color: #FF9900;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 #email {

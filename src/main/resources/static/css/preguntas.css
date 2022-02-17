@@ -1,6 +1,72 @@
 .contenedor-preguntas {
-    dispkay: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    margin-bottom: 20px;
 }
+
+.acordion-item {
+    background-color: white;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem #414141;
+    color: #024070;
+}
+
+.acordion-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #024070;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem 0;
+}
+
+.acordion-link i {
+    color: #024070;
+    padding: .5rem;
+}
+
+.acordion-link .ion-md-remove {
+    display: none;  /* Con esto escondemos el icono de menos*/
+}
+
+.respuesta {
+    max-height: 0;
+    overflow: hidden; /* Con este overflow y max escondemos la respuesta*/
+    position: relative;
+    background-color: white;
+    transition: max-height 650ms;
+}
+
+.respuesta::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #024070;
+}
+
+.respuesta p {
+    padding: 2rem;
+    color: #024070;
+}
+
+.acordion-item:target .respuesta {
+    max-height: 20rem;
+}
+
+.acordion-item:target .acordion-link .ion-md-add{
+    display: none;
+}
+
+.acordion-item:target .acordion-link .ion-md-remove{
+    display: block;
+}
+
