@@ -5,11 +5,11 @@
 }
 
 .input{
-    background: #B0C4DE;
+    background: white;
     border: 0;
     color: #024070;
     outline: none;
-    border: 1px  solid #fff;
+    border: 1px  solid #024070;
     padding: 20px 10px;
     font-family:sans-serif;
 }
@@ -39,8 +39,8 @@ input[type="email"]{
 
 input[type="submit"]:hover{
     cursor: pointer;
-    color: #024070;
-    background: #fff;
+    color: white;
+    background: #024070;
 }
 
 .contenido {
